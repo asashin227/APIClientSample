@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1731C24E1F42D06500C06154 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1731C24D1F42D06500C06154 /* UserRepository.swift */; };
-		17B778641F42C217004F89D2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B778631F42C217004F89D2 /* APIClient.swift */; };
 		17E596F11F42C173001AA5C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E596F01F42C173001AA5C9 /* AppDelegate.swift */; };
 		17E596F31F42C173001AA5C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E596F21F42C173001AA5C9 /* ViewController.swift */; };
 		17E596F81F42C173001AA5C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E596F71F42C173001AA5C9 /* Assets.xcassets */; };
@@ -18,6 +16,8 @@
 		2D8335B0491AFAAA12EA413D /* Pods_APIClientSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA6874EA0A44557E6C8E4F3 /* Pods_APIClientSample.framework */; };
 		A866B5438F7F176649510F80 /* Pods_APIClientSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D1A44CF4BFE8483F220453 /* Pods_APIClientSampleUITests.framework */; };
 		BA76963BDD6BADC79205615C /* Pods_APIClientSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488BC07A23CD72152BDC56B1 /* Pods_APIClientSampleTests.framework */; };
+		CE7B6A881F56435E0006048B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B6A871F56435E0006048B /* APIClient.swift */; };
+		CE7B6A8A1F5643670006048B /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B6A891F5643670006048B /* UserRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 
 /* Begin PBXFileReference section */
 		04A084A79CF32950DBF36A47 /* Pods-APIClientSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClientSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIClientSample/Pods-APIClientSample.debug.xcconfig"; sourceTree = "<group>"; };
-		1731C24D1F42D06500C06154 /* UserRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
-		17B778631F42C217004F89D2 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		17E596ED1F42C173001AA5C9 /* APIClientSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIClientSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E596F01F42C173001AA5C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17E596F21F42C173001AA5C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +56,8 @@
 		7ED5FC2B1F514D7793AC12E9 /* Pods-APIClientSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClientSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIClientSample/Pods-APIClientSample.release.xcconfig"; sourceTree = "<group>"; };
 		B2CC1AF649F68FEB2DF67B59 /* Pods-APIClientSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClientSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIClientSampleTests/Pods-APIClientSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BF29C581773E2CB83AFFC269 /* Pods-APIClientSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClientSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIClientSampleUITests/Pods-APIClientSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE7B6A871F56435E0006048B /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		CE7B6A891F5643670006048B /* UserRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		D25382BE8B6651AB45ECDCA3 /* Pods-APIClientSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClientSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIClientSampleTests/Pods-APIClientSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		F5A16E37A2CD5C0732DF7816 /* Pods-APIClientSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClientSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIClientSampleUITests/Pods-APIClientSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FFA6874EA0A44557E6C8E4F3 /* Pods_APIClientSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIClientSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,16 +91,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17B778621F42C1FF004F89D2 /* client */ = {
-			isa = PBXGroup;
-			children = (
-				17B778631F42C217004F89D2 /* APIClient.swift */,
-				1731C24D1F42D06500C06154 /* UserRepository.swift */,
-			);
-			name = client;
-			path = ../../../../Desktop/client;
-			sourceTree = "<group>";
-		};
 		17E596E41F42C173001AA5C9 = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +116,7 @@
 		17E596EF1F42C173001AA5C9 /* APIClientSample */ = {
 			isa = PBXGroup;
 			children = (
-				17B778621F42C1FF004F89D2 /* client */,
+				CE7B6A861F5643510006048B /* client */,
 				17E596F01F42C173001AA5C9 /* AppDelegate.swift */,
 				17E596F21F42C173001AA5C9 /* ViewController.swift */,
 				17E596F71F42C173001AA5C9 /* Assets.xcassets */,
@@ -162,6 +152,15 @@
 				47D1A44CF4BFE8483F220453 /* Pods_APIClientSampleUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7B6A861F5643510006048B /* client */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B6A871F56435E0006048B /* APIClient.swift */,
+				CE7B6A891F5643670006048B /* UserRepository.swift */,
+			);
+			path = client;
 			sourceTree = "<group>";
 		};
 		FEF6498BB297CF667AC5A05D /* Pods */ = {
@@ -254,7 +253,7 @@
 				TargetAttributes = {
 					17E596EC1F42C173001AA5C9 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 2TGPPHG6AT;
+						DevelopmentTeam = JJVBMKS8RG;
 						ProvisioningStyle = Automatic;
 					};
 					17E597001F42C174001AA5C9 = {
@@ -324,13 +323,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APIClientSample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2025664389511E0FBB493F42 /* [CP] Copy Pods Resources */ = {
@@ -354,13 +356,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APIClientSampleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3FE77E865DA7386B1F7A227F /* [CP] Embed Pods Frameworks */ = {
@@ -429,9 +434,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-APIClientSample/Pods-APIClientSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Himotoki/Himotoki.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Himotoki.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -444,13 +454,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APIClientSampleUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -462,8 +475,8 @@
 			files = (
 				17E596F31F42C173001AA5C9 /* ViewController.swift in Sources */,
 				17E596F11F42C173001AA5C9 /* AppDelegate.swift in Sources */,
-				1731C24E1F42D06500C06154 /* UserRepository.swift in Sources */,
-				17B778641F42C217004F89D2 /* APIClient.swift in Sources */,
+				CE7B6A8A1F5643670006048B /* UserRepository.swift in Sources */,
+				CE7B6A881F56435E0006048B /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,7 +635,7 @@
 			baseConfigurationReference = 04A084A79CF32950DBF36A47 /* Pods-APIClientSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2TGPPHG6AT;
+				DEVELOPMENT_TEAM = JJVBMKS8RG;
 				INFOPLIST_FILE = APIClientSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.asashin227.APIClientSample;
@@ -636,7 +649,7 @@
 			baseConfigurationReference = 7ED5FC2B1F514D7793AC12E9 /* Pods-APIClientSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2TGPPHG6AT;
+				DEVELOPMENT_TEAM = JJVBMKS8RG;
 				INFOPLIST_FILE = APIClientSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.asashin227.APIClientSample;
